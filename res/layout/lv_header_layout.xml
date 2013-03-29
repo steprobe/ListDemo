@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/lvHdrItemHeight"
+    android:clickable="false"
+    >
+
+    <View
+        android:id="@+id/item_separator"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lvDividerHeight"
+        android:background="@color/lvHeaderDividerColor"
+        android:layout_marginTop="@dimen/lvSectionDividerMarginTop"
+        />
+
+    <TextView
+        android:textIsSelectable="false"
+        android:id="@+id/lv_list_hdr"
+        android:textColor="@color/lvHeaderTextColor"
+        android:gravity="bottom|left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/item_separator"
+        android:layout_alignParentLeft="true"
+        style="@style/listViewHeaderItem"
+        />
+</RelativeLayout>

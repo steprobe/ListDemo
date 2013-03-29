@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lvPrimaryTextSize">18sp</dimen>
+    <dimen name="lvSecondaryTextSize">14sp</dimen>
+
+    <dimen name="lvHdrItemHeight">45dp</dimen>
+    <dimen name="lvItemHeight">65dp</dimen>
+    
+    <dimen name="lvHeadingPaddingLeft">8dp</dimen>
+    <dimen name="lvHeadingTextSize">14sp</dimen>
+    
+    <dimen name="lvPrimaryPaddingTop">6dp</dimen>
+    <dimen name="lvPrimaryPaddingBottom">1dp</dimen>
+    <dimen name="lvPrimaryPaddingLeft">8dp</dimen>
+
+    <dimen name="lvSecondaryPaddingTop">2dp</dimen>
+    <dimen name="lvSecondaryPaddingBottom">6dp</dimen>
+    <dimen name="lvSecondaryPaddingLeft">8dp</dimen>
+
+    <dimen name="lvDividerHeight">1dp</dimen>
+    <dimen name="lvDividerMargin">15dp</dimen>
+    <dimen name="lvSectionDividerMargin">5dp</dimen>
+    <dimen name="lvDividerWidth">1dp</dimen>
+
+    <dimen name="lvSectionDividerMarginTop">5dp</dimen>
+</resources>
